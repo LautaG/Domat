@@ -8178,7 +8178,7 @@ h3.captionn-w span::after {
     color: #fff;
   }
   .navbar-item img {
-    max-height: 80px !important;
+    max-height: 50px !important;
   }
   .navbar-brand .navbar-item {
     -webkit-box-flex: 1;
