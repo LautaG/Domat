@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link rel="stylesheet" href="css/glide.theme.min.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/helpers.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/contacto.css">
@@ -116,68 +117,65 @@
         </nav>
     </header>
 
-    <section id="hero-contact" class="hero hero-contact is-medium">
-        <article class="hero-body hero-contact-body is-flex is-align-content-center px-0">
-
-            <div class="hero-body-info hero-contact-body-info">
-                <h1 class="hero-body-info-title is-paddingless">
-                    Contacto
-                </h1>
-            </div>
-        </article>
-    </section>
-
-    <section class="datos">
-        <article class="datos-body">
-            <div class="datos-body-item center-column">
-                <img src="img/ico/map.svg" alt="">
-                <h3>Lavalle 1125 (of.8) CABA</h3>
-            </div>
-            <div class="datos-body-item center-column">
-                <img src="img/ico/phone.svg" alt="">
-                <h3>+54 (011) 3987 - 9995</h3>
-            </div>
-            <div class="datos-body-item center-column">
-                <img src="img/ico/arroba.svg" alt="">
-                <h3>comercial@spiez.com.ar</h3>
-            </div>
-        </article>
-    </section>
-    <section class="contact-empresas">
-        <article class="contact-empresas-body">
-            <div class="contact-empresas-img"><img src="img/hero-m.jpg" alt=""></div>
-            <div class="contact-empresas-container">
-                <form id="contact" action="" method="post">
-                    <h3>Envíanos tu mensaje</h3>
-                    <h4>Describe con detalle que servicios necesitas</h4>
-                    <fieldset>
-                        <input placeholder="Nombre y Apellido" type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Email" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Número de teléfono" type="tel" tabindex="3" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Nombre de la empresa" type="url" tabindex="4" required>
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Escribe tu mensaje...." tabindex="5" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-                    </fieldset>
-
-                </form>
-            </div>
-        </article>
-    </section>
-
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.066733964388!2d-58.384975584475185!3d-34.60247398045982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac8aebfb529%3A0x3a78d07ed4dbb925!2sLavalle%201125%2C%20C1048%20CABA!5e0!3m2!1ses!2sar!4v1619009323023!5m2!1ses!2sar"
         width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
+    <section id="contact-form" class="contact-form has-background-primary">
+        <article class="contact-form-cont cont has-background-white">
+            <h2>Nos encantaría recibir tu mensaje</h2>
+            <div class="contact-form-cont-body">
+                <div class="columns is-multiline is-variable is-5">
+                    <div class="column column is-one-third-desktop">
+                        <label class="campo-first"> Nombre y Apellido<br>
+                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value=""
+                                    size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false"
+                                    placeholder="Escriba su nombre y apellido..."></span> </label>
+                    </div>
+                    <div class="column column is-one-third-desktop">
+                        <label class="campo-mid"> Email<br>
+                            <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email"
+                                    value="" size="40"
+                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                    aria-required="true" aria-invalid="false" placeholder="Escriba su mail..."></span>
+                        </label>
+                    </div>
+                    <div class="column column is-one-third-desktop">
+                        <label class="campo-last"> Teléfono<br>
+                            <span class="wpcf7-form-control-wrap tel-contacto"><input type="tel" name="tel-contacto"
+                                    value="" size="40"
+                                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                                    aria-required="true" aria-invalid="false"
+                                    placeholder="Comparta su número de contacto..."></span> </label>
+                    </div>
+                    <div class="column is-full-desktop">
+                        <label> Tu mensaje<br>
+                            <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40"
+                                    rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false"
+                                    placeholder="Contanos un poco sobre tu proyecto..."></textarea></span> </label>
+                    </div>
+                    <div class="column footer-form">
+                        <div><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"><span
+                                class="ajax-loader"></span></div>
+                        <div class="footer-form-links">
+                            <a href=""> <img class="lazy loaded" src="img/ico/carta.svg" data-src="img/ico/carta.svg"
+                                    alt="" data-was-processed="true">
+                                comercial@domat.com.ar</a><br> <a href="">
+                                <img class="lazy loaded" src="img/ico/wpp-form.svg" data-src="img/ico/wpp-form.svg"
+                                    alt="" data-was-processed="true"> +54
+                                9
+                                (11)
+                                6127 2772</a><br><a href="https://goo.gl/maps/2rn4qdW7hdLZqvmHA"
+                                class="footer-form-links-map"><br>
+                                <img class="lazy loaded" src="img/ico/pinmap.svg" data-src="img/ico/pinmap.svg" alt=""
+                                    data-was-processed="true">Lavalle 1125 CABA</a> </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
     <footer class="footer has-background-black center-column has-text-white pb-5">
         <a class="back-to-top" href="#header">
             <p>TOP</p>
