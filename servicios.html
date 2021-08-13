@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domat | Servicios</title>
+    <title>Servicios</title>
 
-    <link rel="stylesheet" href="css/glide.core.min.css">
-    <link rel="stylesheet" href="css/glide.theme.min.css">
-    <link rel="stylesheet" href="css/helpers.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="https://eugenie.com.ar/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://eugenie.com.ar/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://eugenie.com.ar/css/helpers.css">
+    <link rel="stylesheet" href="https://eugenie.com.ar/css/normalize.css">
+    <link rel="stylesheet" href="https://eugenie.com.ar/css/bulma.min.css">
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,735 +19,228 @@
 </head>
 
 <body>
-    <header id="header" class="header py-3">
+    <header id="header" class="header">
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
-                    <img loading="lazy" src="img/logo-header-1.svg" width="200">
+                <a class="navbar-item" href="https://eugenie.com.ar/inicio">
+                    <img loading="lazy" src="https://eugenie.com.ar/media/isologo.png" class="isologo">
+                    <p>eugénie</p>
                 </a>
 
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+
+                    <img aria-hidden="true" src="https://eugenie.com.ar/media/ico/burguer.png" alt="" srcset=""
+                        class="burguer-ico">
                 </a>
             </div>
 
             <div id="navbar" class="navbar-menu is-justify-content-flex-end">
-                <div class="navbar-item">
-                    <a href="index.html" class="navbar-item">
-                        Inicio
-                    </a>
 
-                    <a href="nosotros.html" class="navbar-item">
-                        Nosotros
-                    </a>
+                <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                    Inicio
+                </a>
 
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="servicios.html" class="navbar-link is-arrowless has-background-black">
-                            Servicios
-                        </a>
+                <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                    Quiénes somos
+                </a>
 
-                        <div class="navbar-dropdown has-background-black">
-                            <a href="servicios.html#anchor-consultorias" class="navbar-item">
-                                Consultorias
-                            </a>
-                            <a href="servicios.html#seguridad" class="navbar-item">
-                                Seguridad
-                            </a>
-                            <a href="servicios.html#sostenibilidad" class="navbar-item">
-                                Sostenibilidad Ambiental
-                            </a>
-                            <a href="servicios.html#ingenieria" class="navbar-item">
-                                Ingeniería
-                            </a>
-                            <a href="servicios.html#anchor-gestion" class="navbar-item">
-                                Sistemas de gestión
-                            </a>
-                            <a href="servicios.html#anchor-control" class="navbar-item">
-                                Control Contratistas
-                            </a>
-                            <a href="servicios.html#anchor-capacitaciones" class="navbar-item">
-                                Capacitaciones
-                            </a>
-                            <a href="servicios.html#anchor-eventos" class="navbar-item">
-                                Eventos
-                            </a>
+                <a href="https://eugenie.com.ar/servicios" class="navbar-item active">
+                    Servicios
+                </a>
 
-                        </div>
-                    </div>
+                <a href="https://eugenie.com.ar/creditos" class="navbar-item">
+                    Créditos
+                </a>
 
-                    <a href="clientes.html" class="navbar-item">
-                        Clientes
-                    </a>
 
-                    <a href="contacto.html" class="navbar-item">
-                        Contacto
-                    </a>
-
-                </div>
-
-                <div class="center">
+                <div class="center" style="justify-content: flex-start;">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="contacto.html" class="button is-primary has-text-weight-medium is-rounded">
-                                ¡Hablemos!
+                            <a href="https://eugenie.com.ar/inicio#contact-form"
+                                class="button is-primary has-text-weight-medium contacto">
+                                Contacto
                             </a>
 
                         </div>
                     </div>
                 </div>
-
+                <button onclick="menuHamburguesa()" class="navbar-burger cerrar-menu" data-target="navbar">X</button>
             </div>
         </nav>
     </header>
 
-    <section class="consultorias" style="position: relative;">
-        <div id="anchor-consultorias"></div>
-        <div class="cont">
-            <article class="consultorias-item">
-                <div class="consultorias-item-info">
-                    <h2 class="f-8 is-uppercase has-text-primary">Consultorias Especiales</h2>
-                    <p class="main-text block">Nuestro departamento de Consultoría dispone de una amplia experiencia con
-                        organizaciones privadas de primer nivel, Administraciones Públicas e infraestructuras
-                        críticas.
-                        Entre otros trabajos, desarrollamos los Planes de Contingencia que establecen procedimientos
-                        de
-                        actuación para prevenir incidencias y amenazas de seguridad, así como para mitigar y
-                        contrarrestar
-                        sus consecuencias en caso de producirse.</p>
-                    <p class="block">
-                        Un equipo de profesionales multidisciplinares y altamente especializados analistas de
-                        seguridad, ingenieros de sistemas o técnicos en autoprotección y emergencias. Su misión es
-                        analizar los riesgos de nuestros clientes y diseñar los planes, procedimientos y soluciones
-                        necesarios.
-                    </p>
-
-                </div>
-
-            </article>
+    <div class="menu-flotante">
+        <div class="botones center-column">
+            <a href="#header"><img src="https://eugenie.com.ar/media/ico/backtotop.svg" alt=""></a>
+            <a target="_blank"
+                href="https://wa.me/542262416286&text=Hola,%20quiero%20emprender%20junto%20a%20ustedes!"><img
+                    src="https://eugenie.com.ar/media/ico/wpp.svg" alt=""></a>
+            <button id="boton-show" onclick="menuLatShow()"><img
+                    src="https://eugenie.com.ar/media/ico/burguer-float.svg" alt=""></button>
+            <button id="boton-back" onclick="menuLatClose()" class="close"><img
+                    src="https://eugenie.com.ar/media/ico/burguer-float.svg" alt=""></button>
         </div>
+        <div id="menu-oculto" class="menu-oculto">
+            <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                Inicio
+            </a>
 
-    </section>
+            <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                Quiénes somos
+            </a>
 
-    <div class="servicios-glide" style="position: relative;">
-        <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-                <li id="seguridad" class="glide__slide servicios-big" style="position: relative;">
-                    <div class="cont">
-                        <article class="servicios-big-item item">
-                            <div class="servicios-big-item-img"><img src="img/servicios/serv-2.jpg" alt=""></div>
-                            <div class="servicios-big-item-info">
-                                <h2 class="f-8 is-uppercase has-text-white">Seguridad integral</h2>
-                                <p class="block has-text-white">Contamos con un equipo de expertos de dilatada
-                                    experiencia en cada
-                                    uno de las áreas
-                                    de seguridad, sumado a la colaboración indispensable de organismos oficiales en
-                                    la lucha
-                                    antiterrorista, desde servicios de inteligencia a Cuerpos y Fuerzas de Seguridad
-                                    del Estado,
-                                    Defensa
-                                    y centros de investigación y desarrollo nacionales. Nuestros informes emitidos
-                                    se basan, en la
-                                    mayoría de los escenarios y como impronta de la compañía, en investigaciones
-                                    derivadas de
-                                    pruebas
-                                    reales, cálculos y simulacros certificados.
-                                </p>
-                            </div>
-                            <ul class="maincontainer-s1-lista block">
-                                <li class="maincontainer-s1-lista-item">
-                                    Planes de Contingencia
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Auditorías integrales de Seguridad
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Informes y estudios técnicos
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Planes de coordinación, autoprotección, emergencias
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Seguridad para depósitos o fábricas de explosivos y pirotecnias
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Planes de Seguridad y Protección Específicos
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Formación y Simulacros
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Personal de Seguridad
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Guardias
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Custodia de Valores en Tránsito
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Protección Ejecutiva
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Mobile patrols
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Sistemas de Seguridad
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Control Inteligente de edificios
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Ingeniería en Sistemas
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    CCTV
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Detección de Incendios
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Detección de intrusos
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Monitoreo y Respuesta
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Protección Satelital
-                                </li>
-                                <li class="maincontainer-s1-lista-item">
-                                    Alarmas y coordinación de accidentes
-                                </li>
+            <a href="https://eugenie.com.ar/servicios" class="navbar-item active">
+                Servicios
+            </a>
 
-                            </ul>
-
-                        </article>
-                    </div>
-
-                </li>
-                <li id="sostenibilidad" class="glide__slide servicios-big" style="position: relative;">
-                    <div class="cont">
-                        <article class="servicios-big-item item item">
-                            <div class="servicios-big-item-img"><img src="img/servicios/serv-3.jpg" alt=""></div>
-                            <div class="servicios-big-item-info">
-                                <h2 class="f-8 is-uppercase">Sostenibilidad ambiental</h2>
-                                <p class="block">Ofrecemos asesoramiento relacionado con el cuidado del ambiente,
-                                    incendios forestales,
-                                    vertidos de efluentes, la caracterización de emisiones gaseosas, el
-                                    ordenamiento y disposición de
-                                    residuos, y demás requisitos legales. Investigamos y controlamos las variables
-                                    ambientales presentes
-                                    en las empresas, para establecer, caracterizar y dimensionar los aspectos e
-                                    impactos ambientales.
-                                </p>
-                            </div>
-                            <ul class="maincontainer-s1-lista ">
-                                <li class="maincontainer-s3-lista-item ">
-                                    Sistemas de manejo de incendios naturales y contingencias forestales.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Habilitaciones Ambientales.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Gestión de residuos.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Monitoreos Ambientales (agua, suelo, aire).
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Planes de emergencia Ambiental y Entrenamiento del Personal.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Asesoramiento jurídico en materia de Seguros Ambientales.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Agenda de Vencimientos y Presentaciones Ambientales.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Asesoramiento Permanente a Empresas.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Auditorias y estudios de impacto ambiental.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Auditorías a Proveedores.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Seguimiento del cronograma de Monitoreos Ambientales.
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Elaboración de Declaraciones Juradas (Efluentes líquidos, Gaseosos, Residuos,
-                                    etc.)
-                                </li>
-                                <li class="maincontainer-s3-lista-item ">
-                                    Auditorías a Proveedores.
-                                </li>
-
-                            </ul>
-
-                        </article>
-                    </div>
-
-
-                </li>
-                <li id="ingenieria" class="glide__slide servicios-big" style="position: relative;">
-                    <div class="cont">
-                        <article class="servicios-big-item item item">
-                            <div class="servicios-big-item-img"><img src="img/servicios/serv-5.jpg" alt=""></div>
-                            <div class="servicios-big-item-info">
-                                <h2 class="f-8 is-uppercase">INGENIERÍA Y CONTROL DE INSTALACIONES</h2>
-                                <p class="block">Nuestros servicios se adaptan a las necesidades y tamaño de nuestros
-                                    clientes, ejecutando consultorías completas sobre las funciones de un Departamento
-                                    de EHS en forma externa, o complementando las actividades de las Gerencias Internas.
-                                </p>
-                            </div>
-                            <ul class="maincontainer-s1-lista ">
-                                <li class="maincontainer-s5-lista-item">
-                                    Proyecto, dirección y ejecución de plantas industriales
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Higiene y Seguridad.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Sistemas de Lucha contra incendio.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Sistemas de presurización de medios de escape.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Sistemas de iluminación de emergencia.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Sistemas de protección mecánica en máquinas y herramientas.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Plantas de tratamiento de efluentes industriales y cloacales.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Control de instalaciones y Facilities.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Verificación de instalaciones eléctricas y Control de tableros.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Medición de puesta a tierra y continuidad.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Ensayos de espesores en tanques y pulmones.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Pruebas hidráulicas en recipientes sometidos a presión.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Mantenimiento edilicio.
-                                </li>
-
-                            </ul>
-
-                        </article>
-                    </div>
-
-
-                </li>
-                <!--  <li id="eventos" class="glide__slide servicios-big" style="position: relative;">
-
-                    <div class="cont">
-                        <article class="servicios-big-item item item">
-                            <div class="servicios-big-item-img"><img src="img/servicios/serv-8.jpg" alt=""></div>
-                            <div class="servicios-big-item-info">
-                                <h2 class="f-8 is-uppercase">COMUNICACIÓN Y EVENTOS</h2>
-                                <p class="block">Con amplia experiencia en comunicación 360 , organización, producción,
-                                    control de eventos masivos, sistemas de comunicación y publicidad integral, en
-                                    eventos de diversa magnitud, nuestros servicios ofrecen soluciones para esta
-                                    importante y amplia área de comunicación.
-                                </p>
-                            </div>
-                            <ul class="maincontainer-s1-lista ">
-                                <li class="maincontainer-s5-lista-item">
-                                    Comunicación y Marketing.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Diseño de Estrategias y Planes de Acción.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Diseño, Producción de contenidos.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Prensa.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Organización de Eventos.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Conferencias de prensa.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Comunicados oficiales.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Eventos expositivos.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Actos oficiales.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Difusión integral de programas preventivos.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Discursos.
-                                </li>
-                                <li class="maincontainer-s5-lista-item">
-                                    Mítines Políticos.
-                                </li>
-
-                            </ul>
-
-                        </article>
-                    </div>
-
-
-                </li> -->
-
-            </ul>
-            <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-            </div>
-        </div>
-        <div class="glide__bullets" data-glide-el="controls[nav]">
-            <button class="glide__bullet" data-glide-dir="=0">Seguridad</button>
-            <button class="glide__bullet" data-glide-dir="=1">Sostenibilidad</button>
-            <button class="glide__bullet" data-glide-dir="=2">Ingeniería</button>
-
+            <a href="https://eugenie.com.ar/creditos" class="navbar-item">
+                Créditos
+            </a>
+            <a href="https://eugenie.com.ar/inicio#contact-form" class="navbar-item">
+                Contacto
+            </a>
         </div>
 
     </div>
 
-    <div class="cards-serv">
-        <section id="sist-gestion" class="servicios-right" style="position: relative;">
-            <div id="anchor-gestion"></div>
-            <article class="servicios-right-item item">
-                <div class="servicios-right-item-img"><img src="img/servicios/serv-4.jpg" alt=""></div>
-                <div class="servicios-right-item-info">
-                    <h2 class="f-8 is-uppercase has-text-primary">Sistema de gestión</h2>
-                    <p class="block">Contamos con un equipo de especialistas en sistemas de gestión, acreditados
-                        como
-                        auditores líderes en Calidad, Medio Ambiente, Salud y Seguridad Ocupacional, y
-                        Responsabilidad
-                        Social, entre otros. Colaboramos en la implementación y seguimiento de planes de gestión,
-                        elaboramos manuales y documentos, preparamos auditores internos, capacitamos a todo el
-                        plantel,
-                        preparamos a la organización para certificar su Sistema de Gestión.
-                    </p>
-
-                    <ul class="maincontainer-s1-lista block">
-                        <p class="maincontainer-s4-lista-item">
-                            La PGC con interfaces: CLIENTE – CONTRATISTA – ANALISTA EHS interactúan entre sí y
-                            registrando
-                            información en tiempo real, garantizando la trazabilidad y transparencia en el
-                            proceso.
-                        </p>
-                        <li class="maincontainer-s4-lista-item">
-                            SA 8000
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            GMP
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            ISO 9001 / TS 16949
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            OHSAS 18001 / IRAM 3800
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            Loss Control
-                        </li>
-
-
-                    </ul>
-
-                </div>
-            </article>
-
-
-        </section>
-
-        <section id="control" class="servicios-left" style="position: relative;">
-            <div id="anchor-control"></div>
-            <article class="servicios-left-item item">
-
-                <div class="servicios-left-item-info">
-                    <h2 class="f-8 is-uppercase has-text-primary">CONTROL DE CONTRATISTAS</h2>
-                    <p class="block">Nuestro equipo de analistas especializados controla la documentación de
-                        contratistas y proveedores, para minimizar los riesgos derivados de la responsabilidad
-                        solidaria
-                        de nuestros clientes. Es un servicio que ofrece una valiosa solución: se basa en la
-                        utilización
-                        de la PGC (Plataforma de Gestión de Contratistas) desarrollada exclusivamente
-                        para la prestación de este servicio.
-                    </p>
-                    <p class="block">La PGC está compuesta de tres interfaces: CLIENTE – CONTRATISTA – ANALISTA EHS
-                        que
-                        interactúan entre sí y registran la información en tiempo real, lo que garantiza la
-                        trazabilidad
-                        y transparencia de todas las etapas del proceso, desde la carga de la documentación por
-                        parte de
-                        la contratista hasta la validación de los documentos por el analista.
-                    </p>
-
-                </div>
-                <div class="servicios-left-item-img"><img src="img/servicios/serv-6.jpg" alt=""></div>
-
-            </article>
-
-        </section>
-
-        <section id="capacitaciones" class="servicios-right" style="position: relative;">
-            <div id="anchor-capacitaciones"></div>
-            <article class="servicios-right-item item">
-                <div class="servicios-right-item-img"><img src="img/servicios/serv-7.png" alt=""></div>
-
-                <div class="servicios-right-item-info">
-                    <h2 class="f-8 is-uppercase has-text-primary">CAPACITACIONES</h2>
-                    <p class="block">Una plataforma para realizar capacitaciones a su personal, actual o nuevos
-                        ingresos, en temas de interés propio de su empresa.
-                    </p>
-                    <p class="block">Capacitaciones en temas relacionados a la Prevención de Accidentes Laborales,
-                        Incendio, Elementos de Protección Personal, Seguridad Vial, y muchos temas más.
-                        Seguimiento de participación de sus empleados mediante un acceso exclusivo para la empresa.
-                    </p>
-                    <ul class="maincontainer-s1-lista block">
-                        <li class="maincontainer-s4-lista-item">
-                            Seguimiento de participación de sus empleados mediante un acceso exclusivo para la
-                            empresa.
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            Acceso desde cualquier tipo de dispositivo, en cualquier momento de la jornada.
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            Certificados de asistencia para cada participante.
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            Constancia de capacitación con todos los participantes.
-                        </li>
-                        <li class="maincontainer-s4-lista-item">
-                            Asistencia online.
-                        </li>
-
-
-                    </ul>
-
-                </div>
-
-            </article>
-
-        </section>
-
-        <section id="eventos" class="glide__slide servicios-big evento" style="position: relative;">
-            <div id="anchor-eventos"></div>
-            <div class="cont">
-                <article class="servicios-big-item">
-                    <div class="servicios-big-item-img"><img src="img/servicios/serv-8.jpg" alt=""></div>
-                    <div class="servicios-big-item-info">
-                        <h2 class="f-8 is-uppercase">COMUNICACIÓN Y EVENTOS</h2>
-                        <p class="block">Con amplia experiencia en comunicación 360 , organización, producción,
-                            control de eventos masivos, sistemas de comunicación y publicidad integral, en
-                            eventos de diversa magnitud, nuestros servicios ofrecen soluciones para esta
-                            importante y amplia área de comunicación.
-                        </p>
-                    </div>
-                    <ul class="maincontainer-s1-lista ">
-                        <li class="maincontainer-s5-lista-item">
-                            Comunicación y Marketing.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Prensa.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Comunicados oficiales.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Diseño de Estrategias y Planes de Acción.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Diseño, Producción de contenidos.
-                        </li>
-
-                        <li class="maincontainer-s5-lista-item">
-                            Organización de Eventos.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Conferencias de prensa.
-                        </li>
-
-                        <li class="maincontainer-s5-lista-item">
-                            Eventos expositivos.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Actos oficiales.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Difusión integral de programas preventivos.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Discursos.
-                        </li>
-                        <li class="maincontainer-s5-lista-item">
-                            Mítines Políticos.
-                        </li>
-
-                    </ul>
-
-                </article>
-            </div>
-
-
-        </section>
-    </div>
-
-
-
-
-    <article class="cta">
-        <div class="cta-cont">
-            <h3 class="has-text-primary">¿Cómo podemos ayudarte?</h3>
-            <h4 class="has-text-primary">Estamos a tu disposición</h4>
-            <a href="" class="button is-primary">
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.2" baseProfile="tiny" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 44.3 44.2"
-                    overflow="visible" xml:space="preserve">
-                    <g id="Grupo_624" transform="translate(0 0)">
-                        <path id="Trazado_799" fill="#eeebd9" d="M44.3,22.2c-0.1,12.2-10.1,22.1-22.3,22c-0.4,0-0.7,0-1.1,0c-2.8-0.2-5.6-0.9-8.2-2.1
-		c-0.4-0.2-0.9-0.2-1.4-0.1C9.1,42.4,7,43,4.9,43.5c-1.7,0.6-3.5-0.4-4-2c-0.2-0.7-0.2-1.4,0-2c0.5-2,1.1-4.1,1.6-6.1
-		c0.1-0.4,0.1-0.9-0.1-1.2C-3.1,21.3,1.2,8,12.1,2.4c1.8-0.9,3.7-1.6,5.7-2c12-2.4,23.6,5.4,26,17.4c0.1,0.5,0.2,1,0.3,1.6
-		C44.1,20.4,44.2,21.3,44.3,22.2z M42.1,22.1C42,21,42,20,41.8,18.9C40.4,10,33.2,3.2,24.2,2.3C17.4,1.4,10.6,4.2,6.5,9.7
-		c-5.3,6.8-5.7,14.2-2.1,21.9c0.3,0.5,0.3,1.2,0.2,1.8c-0.5,2.2-1.1,4.3-1.7,6.4c-0.4,1.3,0.2,1.9,1.6,1.6c2.2-0.6,4.4-1.2,6.6-1.7
-		c0.6-0.1,1.3-0.1,1.8,0.2c2.5,1.2,5.2,1.9,7.9,2.1c11.1,0.6,20.5-7.9,21.1-19C42.1,22.7,42.1,22.4,42.1,22.1z" />
-                        <path id="Trazado_800" fill="#eeebd9" d="M14.1,12.5c0.7-0.1,1.5,0.3,1.7,1c0.6,1.4,1.2,2.8,1.7,4.1c0.4,0.9-0.2,1.5-0.7,2.1
-		c-1.2,1.6-1.3,1.6-0.1,3.3c1.7,2.4,4,4.3,6.8,5.4c0.6,0.3,1.3,0.1,1.6-0.4c0.5-0.6,1-1.2,1.5-1.9c0.3-0.5,0.9-0.6,1.3-0.3
-		c0,0,0,0,0,0c1.4,0.7,2.9,1.3,4.3,2.1c0.4,0.3,0.6,0.7,0.7,1.2c-0.1,2.6-1.6,4.1-4.2,4.6c-1.1,0.2-2.1,0.1-3.2-0.2
-		c-7.3-1.7-12-6.4-15-13c-1.1-2.3-0.7-5.2,1.2-7C12.3,12.8,13.2,12.4,14.1,12.5z" />
-                    </g>
-                </svg> Chatear con alguien</a>
-        </div>
-    </article>
-
-
-
-
-    <footer class="footer has-background-black center-column has-text-white pb-5">
-        <a class="back-to-top" href="#header">
-            <p>TOP</p>
-        </a>
-
-        <article class="footer-body">
-            <div class="redes">
-                <p class="footer-title">Domat</p>
-                <p>Consultoría, Planificación y Asesoramiento Integral</p>
-            </div>
-            <div class="menu is-flex-direction-column">
-                <p class="footer-title">Navegación</p>
-
-                <a href="index.html" class="navbar-item">
-                    Inicio
-                </a>
-
-                <a href="nosotros.html" class="navbar-item">
-                    Nosotros
-                </a>
-
-                <a href="servicios.html" class="navbar-item">
-                    Servicios
-                </a>
-
-                <a href="servicios.html" class="navbar-item">
-                    Clientes
-                </a>
-
-                <a href="contacto.html" class="navbar-item">
-                    Contacto
-                </a>
-
-            </div>
-            <div class="menu menu-serv is-flex-direction-column">
-                <p class="footer-title">Servicios</p>
-                <a href="servicios.html#anchor-consultorias" class="navbar-item">
-                    Consultorias
-                </a>
-                <a href="servicios.html#seguridad" class="navbar-item">
-                    Seguridad
-                </a>
-                <a href="servicios.html#sostenibilidad" class="navbar-item">
-                    Sostenibilidad Ambiental
-                </a>
-                <a href="servicios.html#ingenieria" class="navbar-item">
-                    Ingeniería
-                </a>
-                <a href="servicios.html#anchor-gestion" class="navbar-item">
-                    Sistemas de gestión
-                </a>
-                <a href="servicios.html#anchor-control" class="navbar-item">
-                    Control Contratistas
-                </a>
-                <a href="servicios.html#anchor-capacitaciones" class="navbar-item">
-                    Capacitaciones
-                </a>
-                <a href="servicios.html#anchor-eventos" class="navbar-item">
-                    Eventos
-                </a>
-
-            </div>
-            <div class="contact">
-                <address class="is-flex is-flex-direction-column">
-                    <p class="footer-title">Contacto</p>
-                    <a class="navbar-item" href="mailto:comercial@domat.com.ar"> comercial@domat.com.ar</a>
-                    <a class="navbar-item"
-                        href="https://wa.me/5491161272772?text=Hola%20estoy%20interesado%20en%20sus%20servicios">+54
-                        9
-                        (11)
-                        6127 2772</a>
-                    <a class="navbar-item" href="">Lavalle 1125 CABA</a>
-                    <a id="boton-contacto" href="contacto.html"
-                        class="button single-spaced is-primary has-text-white mt-2">Contáctenos</a>
-                </address>
+    <section id="heros" class="heros">
+        <article class="cont">
+            <h1 class="is-size-5-mobile has-text-primary is-uppercase">Todos los servicios <br>
+                que necesitás.
+            </h1>
+            <div class="info">
+                <h2 class="has-text-primary">
+                    Nuestro equipo está listo <br> para ayudarte con tu <br> emprendimiento.
+                </h2>
+                <a href="https://eugenie.com.ar/servicios#infocards"><img
+                        src="https://eugenie.com.ar/media/ico/hero-flecha.svg" alt="" class="flecha"></a>
             </div>
         </article>
+        <article class="heros-img">
+            <img src="https://eugenie.com.ar/media/b-hero-servicios-m.jpg" alt="">
+        </article>
+    </section>
 
-        <div class="leyenda has-text-weight-medium level">
-            <p class="level-left">©2021 Domat. Todos los derechos reservados</p>
-            <ul class="level-right level">
-                <li class="level-item"><a href="">Términos y condiciones</a></li>
-                <li class="level-item"><a href="">Política de privacidad</a></li>
-                <li class="level-item"><a href="">Sitemap</a></li>
-                <li class="level-item"><a href="">Disclaimer</a></li>
-            </ul>
+    <section id="infocards" class="infocards">
+        <a href="https://eugenie.com.ar/creditos/" class="infocards-item card-1">
+            <img src="https://eugenie.com.ar/media/ico/s-1.svg" alt="">
+            <h3>créditos</h3>
+            <p>Otorgamos los recursos económicos necesarios para que desarrolles tu emprendimiento.</p>
+            <span>simular crédito</span>
+
+        </a>
+        <a href="https://eugenie.com.ar/inicio#contact-form" class="infocards-item card-2">
+            <img src="https://eugenie.com.ar/media/ico/s-2.svg" alt="">
+            <h3>conexiones</h3>
+            <p>Generamos una red de emprendedoras y lazos de negocios para que puedas crecer y expandirte.</p>
+            <span>quiero ser parte</sp>
+        </a>
+        <a target="_blank" href="https://wa.me/542262416286?text=Hola,%20quiero%20emprender%20junto%20a%20ustedes!"
+            class="infocards-item card-3">
+            <img src="https://eugenie.com.ar/media/ico/s-3.svg" alt="">
+            <h3>consultoría</h3>
+            <p>Ofrecemos un acompañamiento personalizado, asesoramiento de gestión, estudios de mercado, etc.</p>
+            <span>conversemos</sp>
+        </a>
+
+    </section>
+    <section id="volver" class="volver">
+        <a href="https://eugenie.com.ar/inicio">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.2" baseProfile="tiny" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10.6 8.6" overflow="visible"
+                xml:space="preserve">
+                <path id="Trazado_809" fill="#032854" d="M2.5,5c0.1,0.1,0.2,0.2,0.3,0.3C3.4,6,4.1,6.7,4.8,7.4c0.3,0.3,0.3,0.7,0,0.9c0,0,0,0,0,0
+	C4.6,8.7,4.2,8.7,3.9,8.5c0,0,0,0,0,0C2.6,7.2,1.4,6,0.2,4.8c-0.3-0.2-0.3-0.6,0-0.9c0,0,0,0,0,0c1.2-1.2,2.4-2.4,3.6-3.6
+	c0.3-0.3,0.7-0.3,0.9,0c0,0,0,0,0,0.1c0.3,0.3,0.3,0.7,0,0.9c0,0,0,0-0.1,0C4.1,1.9,3.4,2.6,2.7,3.3C2.6,3.4,2.6,3.5,2.5,3.6h0.4
+	c2.3,0,4.6,0,6.9,0c0.2,0,0.5,0.1,0.6,0.2c0.2,0.2,0.3,0.5,0.2,0.7C10.4,4.9,10.1,5.1,9.8,5C8.6,5,7.4,5,6.1,5L2.5,5z" />
+            </svg>
+
+            volver al inicio</a>
+    </section>
+    <section id="redes" class="redes">
+        <p>Seguinos en nuestras redes</p>
+        <div class="is-flex">
+            <a href="https://www.facebook.com/eugenie.microcreditos"><img
+                    src="https://eugenie.com.ar/media/ico/facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/eugenie.microcreditos/"><img
+                    src="https://eugenie.com.ar/media/ico/instagram.svg" alt=""></a>
         </div>
+    </section>
+
+    <footer id="footer" class="footer has-text-primary py-5">
+        <article class="cont">
+            <div class="menu">
+                <div class="navbar-item is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+                    <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                        Inicio
+                    </a>
+
+                    <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                        Quiénes somos
+                    </a>
+
+                    <a href="https://eugenie.com.ar/servicios" class="navbar-item active">
+                        Servicios
+                    </a>
+
+                    <a href="https://eugenie.com.ar/creditos" class="navbar-item">
+                        Créditos
+                    </a>
+
+                    <a href="https://eugenie.com.ar/inicio#contact-form" class="navbar-item">
+                        Contacto
+                    </a>
+                </div>
+            </div>
+            <div class="copy is-flex is-flex-wrap-wrap">
+                <p>Eugénie es una empresa perteneciente a Grupo Delsud</p>
+                <p>Copyright © 2021 Grupo Delsud </p>
+            </div>
+        </article>
     </footer>
+
 </body>
 
-<script src="js/burguermenu.js"></script>
-<script src="js/others-1.js"></script>
-<script src="js/glide.min.js"></script>
+<script src="https://eugenie.com.ar/js/burguermenu.js"></script>
+<script src="https://eugenie.com.ar/js/glide.min.js"></script>
 <script>
     const config = {
         type: "slider",
-        perView: 1,
-        hoverpause: true,
-        gap: 0,
         animationDuration: 600,
-        breakpoints: {
-            1500: {
-                perView: 1,
-            },
+        gap: 20,
+        autoplay: 3000,
+    };
+    new Glide(".glide-gallery", config).mount();
+    const config_client = {
+        type: "carousel",
+        animationDuration: 600,
+        gap: 18,
+        hoverpause: true,
+        autoplay: 1,
+        animationDuration: 6000,
+        animationTimingFunc: 'linear',
 
-        }
 
     };
-    new Glide(".servicios-glide", config).mount();
+    new Glide(".glide-clientes", config_client).mount();
+    const config_bases = {
+        type: "slider",
+        animationDuration: 600,
+        gap: 26,
+        breakpoints: {
+            1925: {
+                perView: 3,
+                dragThreshold: false,
+            },
+            800: {
+                perView: 1
+            }
+        }
+    };
+    new Glide(".glide-bases", config_bases).mount();
 </script>
 
 </html>

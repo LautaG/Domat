@@ -24,6 +24,7 @@ html {
 
 body {
   margin: 0;
+  font-weight: 500;
 }
 
 /**
@@ -376,4 +377,9 @@ template {
 
 [hidden] {
   display: none;
+}
+
+section .cont {
+  margin-inline: auto;
+margin: 0 2.5rem;
 }

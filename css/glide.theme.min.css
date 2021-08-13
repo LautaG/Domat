@@ -41,7 +41,7 @@
 .glide__bullets {
     position: absolute;
     z-index: 2;
-    top: 120px;
+    bottom: 0px;
     left: 50%;
     display: inline-flex;
     list-style: none;
@@ -61,18 +61,16 @@
 }
 
 .glide__bullet {
-    background-color: #cccccc; 
-    padding: 1.25rem;
-    border-radius: 10px;
+    background-color: #dadbdc;
+    width: 58px;
+    height: 6px;
+    padding: 0;
     border: 2px solid transparent;
     transition: all .3s ease-in-out;
     cursor: pointer;
     line-height: 0;
     box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, .1);
-    margin: 0 .5em;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
+    margin: 0 12px
 }
 
 .glide__bullet-hero {
@@ -89,18 +87,17 @@
 }
 
 .glide__bullet:focus {
-    outline: 0;
-    background-color: transparent;
+    outline: 0
 }
 
 .glide__bullet:focus,
 .glide__bullet:hover {
-    border: 2px solid #3b9ed8;
-    background-color: #3298dc
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, .5)
 }
 
 .glide__bullet--active {
-    background-color: #3b9ed8
+    background-color: #8b8a63
 }
 
 .glide--swipeable {

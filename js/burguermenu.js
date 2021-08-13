@@ -19,7 +19,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 $target.classList.toggle('is-active');
 
             });
+             
         });
-    }
-
+    }  
 });
+
+
+function menuLatShow() {
+    document.getElementById("menu-oculto").style.display = "block";
+    document.getElementById("boton-show").style.display = "none";
+    document.getElementById("boton-back").style.display = "block";
+};
+
+function menuLatClose() {
+    document.getElementById("menu-oculto").style.display = "none";
+    document.getElementById("boton-show").style.display = "block";
+    document.getElementById("boton-back").style.display = "none";
+};

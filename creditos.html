@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créditos</title>
+
+    <link rel="stylesheet" href="/css/glide.core.min.css">
+    <link rel="stylesheet" href="/css/glide.theme.min.css">
+    <link rel="stylesheet" href="/css/helpers.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/creditos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header" class="header">
+
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://eugenie.com.ar/inicio">
+                    <img loading="lazy" src="https://eugenie.com.ar/media/isologo.png" class="isologo">
+                    <p>eugénie</p>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+
+                    <img aria-hidden="true" src="https://eugenie.com.ar/media/ico/burguer.png" alt="" srcset=""
+                        class="burguer-ico">
+                </a>
+            </div>
+
+            <div id="navbar" class="navbar-menu is-justify-content-flex-end">
+
+                <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                    Inicio
+                </a>
+
+                <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                    Quiénes somos
+                </a>
+
+                <a href="https://eugenie.com.ar/servicios" class="navbar-item">
+                    Servicios
+                </a>
+
+                <a href="https://eugenie.com.ar/creditos" class="navbar-item active">
+                    Créditos
+                </a>
+
+
+                <div class="center" style="justify-content: flex-start;">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="https://eugenie.com.ar/inicio#contact-form"
+                                class="button is-primary has-text-weight-medium contacto">
+                                Contacto
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <button onclick="menuHamburguesa()" class="navbar-burger cerrar-menu" data-target="navbar">X</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="menu-flotante">
+        <div class="botones center-column">
+            <a href="#header"><img src="https://eugenie.com.ar/media/ico/backtotop.svg" alt=""></a>
+            <a target="_blank"
+                href="https://wa.me/542262416286?text=Hola,%20quiero%20emprender%20junto%20a%20ustedes!"><img
+                    src="https://eugenie.com.ar/media/ico/wpp.svg" alt=""></a>
+            <button id="boton-show" onclick="menuLatShow()"><img
+                    src="https://eugenie.com.ar/media/ico/burguer-float.svg" alt=""></button>
+            <button id="boton-back" onclick="menuLatClose()" class="close"><img
+                    src="https://eugenie.com.ar/media/ico/burguer-float.svg" alt=""></button>
+        </div>
+        <div id="menu-oculto" class="menu-oculto">
+            <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                Inicio
+            </a>
+
+            <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                Quiénes somos
+            </a>
+
+            <a href="https://eugenie.com.ar/servicios" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="https://eugenie.com.ar/creditos" class="navbar-item active">
+                Créditos
+            </a>
+            <a href="https://eugenie.com.ar/inicio#contact-form" class="navbar-item">
+                Contacto
+            </a>
+        </div>
+        <link rel="stylesheet" href="https://eugenie.com.ar/css/glide.core.min.css">
+        <link rel="stylesheet" href="https://eugenie.com.ar/css/glide.theme.min.css">
+    </div>
+
+    <section id="heroc" class="heroc">
+        <article class="cont">
+            <h1 class="is-size-5-mobile has-text-primary is-uppercase">Conocé los <br> beneficios
+                disponibles.</h1>
+            <div class="info">
+                <h2 class="has-text-weight-medium has-text-primary">
+                    Simulá tu crédito.
+                </h2>
+                <a href="https://eugenie.com.ar/creditos#infoc"><img
+                        src="https://eugenie.com.ar/media/ico/hero-flecha.svg" alt="" class="flecha"></a>
+            </div>
+        </article>
+        </article>
+        <article class="heroc-img">
+            <img src="https://eugenie.com.ar/media/b-hero-creditos-m.jpg" alt="">
+        </article>
+    </section>
+
+    <section id="infoc" class="infoc">
+        <div class="margindesktop">
+            <article class="infoc-cont">
+
+                <nav class="tabs">
+                    <ul>
+                        <li class="tab is-active" onclick="openTab(event,'WebDev')"><a>Características</a></li>
+                        <li class="tab" onclick="openTab(event,'WebAud')"><a>¿Por qué te conviene?</a></li>
+                        <li class="tab" onclick="openTab(event,'Support')"><a>Requisitos</a></li>
+                    </ul>
+                </nav>
+
+                <div id="WebDev" class="content-tab">
+                    <ul>
+                        <li class="block">Monto máximo de $1.000.000 (pesos argentinos)</li>
+                        <li class="block">Plazo mínimo 12 meses - máximo 60 meses.</li>
+                        <li class="block">Tasa fija en pesos. </li>
+                        <li class="block">Préstamos a sola firma.</li>
+                        <li class="block">Condiciones adaptadas a los ciclos productivos
+                            de su negocio</li>
+                    </ul>
+                </div>
+                <div id="WebAud" class="content-tab" style="display:none">
+                    <ul>
+                        <li class="block">Sin demostración de ingresos. </li>
+                        <li class="block">Resolución en 72hs.</li>
+                        <li class="block">No es necesario concretar una cita en nuestras oficinas,
+                            un miembro de nuestro equipo visitará tu emprendimiento.</li>
+                        <li class="block">Atención personalizada.</li>
+                        <li class="block">Consultoría gratuita durante todo el proceso.</li>
+
+                    </ul>
+                </div>
+                <div id="Support" class="content-tab" style="display:none">
+                    <ul>
+                        <li class="block">Ser trabajadora independiente (con esto nos referimos a: emprendimientos,
+                            comercios, negocio familiares, oficios, actividades comerciales, de servicio o producción).
+                        </li>
+                        <li class="block">Desarrollar la actividad dentro del ámbito de la provincia de Buenos Aires
+                            (incluido CABA).</li>
+                        <li class="block">Poseer DNI.</li>
+                        <li class="block">Se valorarán referencias y antecedentes comerciales.</li>
+
+                    </ul>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+    [contact-form-7 id="102" title="simulador duplicado con vue"]
+    <p></p>
+    </div>
+
+
+    <div id="modal" class="modal">
+        <div onclick="modalContactoClose()" class="modal-background"></div>
+        <div class="modal-content">
+            <div class="block is-flex">
+                <img loading="lazy" src="https://eugenie.com.ar/media/ico/ico-popup-c.svg" alt="">
+                <h4 class="has-text-weight-medium">¡Estupendo!</h4>
+            </div>
+            <p class="block">Hemos recibido tu consulta, <br>
+                a la brevedad nos pondremos en contacto para seguir conversando.
+            </p>
+            <button onclick="modalContactoClose()" class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+    </div>
+
+
+    <section id="cta-c" class="cta-c resize-2">
+        <h3>Trabajemos juntos</h3>
+        <p>Es importante que puedas gestionar tu emprendimiento <br> de acuerdo a la metodología adecuada.</p>
+        <a target="_blank" href="https://wa.me/542262416286?text=Hola,%20quiero%20emprender%20junto%20a%20ustedes!"
+            class="button is-secondary has-text-weight-medium">
+            <span class="texto"> Conversemos</span>
+            <span class="flecha has-background-secondary-dark"><img
+                    src="https://eugenie.com.ar/media/ico/flecha-der-boton.svg" alt="" width="10.6px"></span>
+        </a>
+    </section>
+
+
+    <footer id="footer" class="footer has-text-primary py-5">
+        <article class="cont">
+            <div class="menu">
+                <div class="navbar-item is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+                    <a href="https://eugenie.com.ar/inicio" class="navbar-item">
+                        Inicio
+                    </a>
+
+                    <a href="https://eugenie.com.ar/quienes-somos" class="navbar-item">
+                        Quiénes somos
+                    </a>
+
+                    <a href="https://eugenie.com.ar/servicios" class="navbar-item">
+                        Servicios
+                    </a>
+
+                    <a href="https://eugenie.com.ar/creditos" class="navbar-item active">
+                        Créditos
+                    </a>
+
+                    <a href="https://eugenie.com.ar/inicio#contact-form" class="navbar-item">
+                        Contacto
+                    </a>
+                </div>
+            </div>
+            <div class="copy is-flex is-flex-wrap-wrap">
+                <p>Eugénie es una empresa perteneciente a Grupo Delsud</p>
+                <p>Copyright © 2021 Grupo Delsud </p>
+            </div>
+        </article>
+    </footer>
+
+</body>
+
+<script src="https://eugenie.com.ar/js/burguermenu.js"></script>
+<script src="https://eugenie.com.ar/js/tabs.js"></script>
+<script src="https://eugenie.com.ar/js/modals.js"></script>
+
+</html>

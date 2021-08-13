@@ -1,59 +1,44 @@
-function imgdetalle1() {
-    document.getElementById("img-detalle-1").style.display = "block";
-    document.getElementById("img-detalle-2").style.display = "none";
-    document.getElementById("img-detalle-3").style.display = "none";
-    document.getElementById("img-detalle-4").style.display = "none";
-    var element = document.getElementById("botondetalle-1");
-    element.classList.add("is-active");
-    var element = document.getElementById("botondetalle-2");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-3");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-4");
-    element.classList.remove("is-active");
+function FAQE() {
+    document.getElementById("maincontainer-empresa").style.display = "block";
+    document.getElementById("maincontainer-historia").style.display = "none";
+     document.getElementById("maincontainer-socios").style.display = "none";
+       document.getElementById("img-qs-empresa").style.display = "block";
+    document.getElementById("img-qs-historia").style.display = "none";
+     document.getElementById("img-qs-socios").style.display = "none";
+      var element = document.getElementById("boton-empresa");
+   element.classList.add("active");
+    var element = document.getElementById("boton-historia");
+   element.classList.remove("active");
+    var element = document.getElementById("boton-socios");
+   element.classList.remove("active");
 };
 
-function imgdetalle2() {
-    document.getElementById("img-detalle-1").style.display = "none";
-    document.getElementById("img-detalle-2").style.display = "block";
-    document.getElementById("img-detalle-3").style.display = "none";
-    document.getElementById("img-detalle-4").style.display = "none";
-    var element = document.getElementById("botondetalle-2");
-    element.classList.add("is-active");
-    var element = document.getElementById("botondetalle-1");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-3");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-4");
-    element.classList.remove("is-active");
-};
+function FAQI() {
+    document.getElementById("maincontainer-empresa").style.display = "none";
+    document.getElementById("maincontainer-historia").style.display = "block";
+     document.getElementById("maincontainer-socios").style.display = "none";
+     document.getElementById("img-qs-empresa").style.display = "none";
+    document.getElementById("img-qs-historia").style.display = "block";
+     document.getElementById("img-qs-socios").style.display = "none";
+     var element = document.getElementById("boton-historia");
+   element.classList.add("active");
+    var element = document.getElementById("boton-empresa");
+   element.classList.remove("active");
+    var element = document.getElementById("boton-socios");
+   element.classList.remove("active");
+    };
 
-function imgdetalle3() {
-    document.getElementById("img-detalle-1").style.display = "none";
-    document.getElementById("img-detalle-2").style.display = "none";
-    document.getElementById("img-detalle-3").style.display = "block";
-    document.getElementById("img-detalle-4").style.display = "none";
-    var element = document.getElementById("botondetalle-3");
-    element.classList.add("is-active");
-    var element = document.getElementById("botondetalle-1");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-2");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-4");
-    element.classList.remove("is-active");
-};
-
-function imgdetalle4() {
-    document.getElementById("img-detalle-1").style.display = "none";
-    document.getElementById("img-detalle-2").style.display = "none";
-    document.getElementById("img-detalle-3").style.display = "none";
-    document.getElementById("img-detalle-4").style.display = "block";
-    var element = document.getElementById("botondetalle-4");
-    element.classList.add("is-active");
-    var element = document.getElementById("botondetalle-1");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-2");
-    element.classList.remove("is-active");
-    var element = document.getElementById("botondetalle-3");
-    element.classList.remove("is-active");
-};
+function FAQP() {
+    document.getElementById("maincontainer-empresa").style.display = "none";
+    document.getElementById("maincontainer-historia").style.display = "none";
+     document.getElementById("maincontainer-socios").style.display = "block";
+     document.getElementById("img-qs-empresa").style.display = "none";
+    document.getElementById("img-qs-historia").style.display = "none";
+     document.getElementById("img-qs-socios").style.display = "block";
+   var element = document.getElementById("boton-socios");
+   element.classList.add("active");
+    var element = document.getElementById("boton-empresa");
+   element.classList.remove("active");
+    var element = document.getElementById("boton-historia");
+   element.classList.remove("active");
+    };
