@@ -23,7 +23,7 @@
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="index.html">
                     <img loading="lazy" src="img/logo-header-1.svg" width="200">
                 </a>
 
@@ -45,44 +45,44 @@
                     </a>
 
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="/servicios.html" class="navbar-link is-arrowless has-background-black has-text-white">
+                        <a href="/servicios.html" class="navbar-link is-arrowless has-background-black">
                             Servicios
                         </a>
 
                         <div class="navbar-dropdown has-background-black">
-                            <a class="navbar-item">
+                            <a href="/servicios.html#anchor-consultorias" class="navbar-item">
                                 Consultorias
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#seguridad" class="navbar-item">
                                 Seguridad
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#sostenibilidad" class="navbar-item">
                                 Sostenibilidad Ambiental
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#ingenieria" class="navbar-item">
                                 Ingeniería
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#anchor-gestion" class="navbar-item">
                                 Sistemas de gestión
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#anchor-control" class="navbar-item">
                                 Control Contratistas
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#anchor-capacitaciones" class="navbar-item">
                                 Capacitaciones
                             </a>
-                            <a class="navbar-item">
+                            <a href="/servicios.html#anchor-eventos" class="navbar-item">
                                 Eventos
                             </a>
 
                         </div>
                     </div>
 
-                    <a href="/servicios.html#1" class="navbar-item">
+                    <a href="/clientes.html" class="navbar-item">
                         Clientes
                     </a>
 
-                    <a href="/servicios.html#2" class="navbar-item">
+                    <a href="/servicios.html" class="navbar-item">
                         Contacto
                     </a>
 
@@ -91,7 +91,7 @@
                 <div class="center">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="/contacto/" class="button is-primary has-text-weight-medium is-rounded">
+                            <a href="/contacto.html" class="button is-primary has-text-weight-medium is-rounded">
                                 ¡Hablemos!
                             </a>
 
@@ -103,19 +103,8 @@
         </nav>
     </header>
 
-    <!--   <section id="hero-serv" class="hero hero-serv is-medium">
-        <article class="hero-body hero-serv-body is-flex is-align-content-center px-0">
-
-            <div class="hero-body-info hero-serv-body-info">
-
-                <h1 class="hero-body-info-title is-paddingless is-uppercase">
-                    Servicios
-                </h1>
-            </div>
-        </article>
-    </section>-->
-
-    <section class="consultorias">
+    <section class="consultorias" style="position: relative;">
+        <div id="anchor-consultorias"></div>
         <div class="cont">
             <article class="consultorias-item">
                 <div class="consultorias-item-info">
@@ -142,11 +131,10 @@
 
     </section>
 
-    <div class="servicios-glide">
+    <div class="servicios-glide" style="position: relative;">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li id="seguridad" class="glide__slide servicios-big">
-
+                <li id="seguridad" class="glide__slide servicios-big" style="position: relative;">
                     <div class="cont">
                         <article class="servicios-big-item item">
                             <div class="servicios-big-item-img"><img src="img/servicios/serv-2.jpg" alt=""></div>
@@ -239,8 +227,7 @@
                     </div>
 
                 </li>
-                <li id="sostenibilidad" class="glide__slide servicios-big">
-
+                <li id="sostenibilidad" class="glide__slide servicios-big" style="position: relative;">
                     <div class="cont">
                         <article class="servicios-big-item item item">
                             <div class="servicios-big-item-img"><img src="img/servicios/serv-3.jpg" alt=""></div>
@@ -257,6 +244,9 @@
                                 </p>
                             </div>
                             <ul class="maincontainer-s1-lista ">
+                                <li class="maincontainer-s3-lista-item ">
+                                    Sistemas de manejo de incendios naturales y contingencias forestales.
+                                </li>
                                 <li class="maincontainer-s3-lista-item ">
                                     Habilitaciones Ambientales.
                                 </li>
@@ -302,8 +292,7 @@
 
 
                 </li>
-                <li id="ingenieria" class="glide__slide servicios-big">
-
+                <li id="ingenieria" class="glide__slide servicios-big" style="position: relative;">
                     <div class="cont">
                         <article class="servicios-big-item item item">
                             <div class="servicios-big-item-img"><img src="img/servicios/serv-5.jpg" alt=""></div>
@@ -362,7 +351,7 @@
 
 
                 </li>
-                <li id="eventos" class="glide__slide servicios-big">
+                <!--  <li id="eventos" class="glide__slide servicios-big" style="position: relative;">
 
                     <div class="cont">
                         <article class="servicios-big-item item item">
@@ -419,75 +408,26 @@
                     </div>
 
 
-                </li>
-                <!--  <li id="3" class="glide__slide servicios-big">
+                </li> -->
 
-                    <div class="cont">
-                        <article class="servicios-4-item item">
-                            <div class="servicios-4-item-img"><img src="img/servicios/serv-2.jpg" alt=""></div>
-                            <div class="servicios-4-item-info">
-                                <h2 class="f-8 is-uppercase has-text-primary">INGENIERÍA Y CONTROL DE INSTALACIONES
-                                </h2>
-                                <p class="block">Nuestros servicios se adaptan a las necesidades y tamaño de nuestros
-                                    clientes, ejecutando consultorías completas sobre las funciones de un Departamento
-                                    de EHS en forma externa, o complementando las actividades de las Gerencias Internas.
-
-                                </p>
-
-                                <ul class="maincontainer-s1-lista block">
-                                    <li class="maincontainer-s5-lista-item">
-                                        Proyecto, dirección y ejecución de plantas industriales
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Higiene y Seguridad.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Sistemas de Lucha contra incendio.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Sistemas de presurización de medios de escape.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Sistemas de iluminación de emergencia.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Sistemas de protección mecánica en máquinas y herramientas.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Plantas de tratamiento de efluentes industriales y cloacales.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Control de instalaciones y Facilities.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Verificación de instalaciones eléctricas y Control de tableros.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Medición de puesta a tierra y continuidad.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Ensayos de espesores en tanques y pulmones.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Pruebas hidráulicas en recipientes sometidos a presión.
-                                    </li>
-                                    <li class="maincontainer-s5-lista-item">
-                                        Mantenimiento edilicio.
-                                    </li>
-
-                                </ul>
-
-                            </div>
-                        </article>
-                    </div>
-                </li>-->
             </ul>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+            </div>
         </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0">Seguridad</button>
+            <button class="glide__bullet" data-glide-dir="=1">Sostenibilidad</button>
+            <button class="glide__bullet" data-glide-dir="=2">Ingeniería</button>
+
+        </div>
+
     </div>
 
     <div class="cards-serv">
-        <section id="sist-gestion" class="servicios-right">
-
+        <section id="sist-gestion" class="servicios-right" style="position: relative;">
+            <div id="anchor-gestion"></div>
             <article class="servicios-right-item item">
                 <div class="servicios-right-item-img"><img src="img/servicios/serv-4.jpg" alt=""></div>
                 <div class="servicios-right-item-info">
@@ -534,8 +474,8 @@
 
         </section>
 
-        <section id="control" class="servicios-left">
-
+        <section id="control" class="servicios-left" style="position: relative;">
+            <div id="anchor-control"></div>
             <article class="servicios-left-item item">
 
                 <div class="servicios-left-item-info">
@@ -564,8 +504,8 @@
 
         </section>
 
-        <section id="capacitaciones" class="servicios-right">
-
+        <section id="capacitaciones" class="servicios-right" style="position: relative;">
+            <div id="anchor-capacitaciones"></div>
             <article class="servicios-right-item item">
                 <div class="servicios-right-item-img"><img src="img/servicios/serv-7.png" alt=""></div>
 
@@ -605,7 +545,66 @@
 
         </section>
 
+        <section id="eventos" class="glide__slide servicios-big evento" style="position: relative;">
+            <div id="anchor-eventos"></div>
+            <div class="cont">
+                <article class="servicios-big-item">
+                    <div class="servicios-big-item-img"><img src="img/servicios/serv-8.jpg" alt=""></div>
+                    <div class="servicios-big-item-info">
+                        <h2 class="f-8 is-uppercase">COMUNICACIÓN Y EVENTOS</h2>
+                        <p class="block">Con amplia experiencia en comunicación 360 , organización, producción,
+                            control de eventos masivos, sistemas de comunicación y publicidad integral, en
+                            eventos de diversa magnitud, nuestros servicios ofrecen soluciones para esta
+                            importante y amplia área de comunicación.
+                        </p>
+                    </div>
+                    <ul class="maincontainer-s1-lista ">
+                        <li class="maincontainer-s5-lista-item">
+                            Comunicación y Marketing.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Prensa.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Comunicados oficiales.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Diseño de Estrategias y Planes de Acción.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Diseño, Producción de contenidos.
+                        </li>
 
+                        <li class="maincontainer-s5-lista-item">
+                            Organización de Eventos.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Conferencias de prensa.
+                        </li>
+
+                        <li class="maincontainer-s5-lista-item">
+                            Eventos expositivos.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Actos oficiales.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Difusión integral de programas preventivos.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Discursos.
+                        </li>
+                        <li class="maincontainer-s5-lista-item">
+                            Mítines Políticos.
+                        </li>
+
+                    </ul>
+
+                </article>
+            </div>
+
+
+        </section>
     </div>
 
 
@@ -641,7 +640,7 @@
 
 
     <footer class="footer has-background-black center-column has-text-white pb-5">
-        <a class="back-to-top" href="#hero">
+        <a class="back-to-top" href="#header">
             <p>TOP</p>
         </a>
 
@@ -653,50 +652,52 @@
             <div class="menu is-flex-direction-column">
                 <p class="footer-title">Navegación</p>
 
-                <a href="/" class="navbar-item">
+                <a href="/index.html" class="navbar-item">
                     Inicio
                 </a>
 
-                <a href="/nosotros/" class="navbar-item">
+                <a href="/nosotros.html" class="navbar-item">
                     Nosotros
                 </a>
 
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html" class="navbar-item">
                     Servicios
                 </a>
 
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html" class="navbar-item">
                     Clientes
                 </a>
 
-                <a href="/contacto/" class="navbar-item">
+                <a href="/contacto.html" class="navbar-item">
                     Contacto
                 </a>
 
             </div>
             <div class="menu menu-serv is-flex-direction-column">
                 <p class="footer-title">Servicios</p>
-                <a href="/servicios/" class="navbar-item">
-                    Consultoría
+                <a href="/servicios.html#anchor-consultorias" class="navbar-item">
+                    Consultorias
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html#seguridad" class="navbar-item">
                     Seguridad
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Salud
+                <a href="/servicios.html#sostenibilidad" class="navbar-item">
+                    Sostenibilidad Ambiental
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Higiene
+                <a href="/servicios.html#ingenieria" class="navbar-item">
+                    Ingeniería
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Ambiente
+                <a href="/servicios.html#anchor-gestion" class="navbar-item">
+                    Sistemas de gestión
                 </a>
-                <a href="/servicios/" class="navbar-item">
-                    Tecnología
+                <a href="/servicios.html#anchor-control" class="navbar-item">
+                    Control Contratistas
+                </a>
+                <a href="/servicios.html#anchor-capacitaciones" class="navbar-item">
+                    Capacitaciones
+                </a>
+                <a href="/servicios.html#anchor-eventos" class="navbar-item">
+                    Eventos
                 </a>
 
             </div>
@@ -710,7 +711,7 @@
                         (11)
                         6127 2772</a>
                     <a class="navbar-item" href="">Lavalle 1125 CABA</a>
-                    <a id="boton-contacto" href="/contacto/"
+                    <a id="boton-contacto" href="/contacto.html"
                         class="button single-spaced is-primary has-text-white mt-2">Contáctenos</a>
                 </address>
             </div>
@@ -733,16 +734,14 @@
 <script src="js/glide.min.js"></script>
 <script>
     const config = {
-        type: "carousel",
+        type: "slider",
         perView: 1,
-        peek: 250,
         hoverpause: true,
         gap: 0,
-        animationDuration: 2000,
+        animationDuration: 600,
         breakpoints: {
             1500: {
                 perView: 1,
-                peek: 80,
             },
 
         }

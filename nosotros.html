@@ -24,7 +24,7 @@
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="index.html">
                     <img loading="lazy" src="img/logo-header-1.svg" width="200">
                 </a>
 
@@ -37,23 +37,53 @@
 
             <div id="navbar" class="navbar-menu is-justify-content-flex-end">
                 <div class="navbar-item">
-                    <a href="/Domat/index.html" class="navbar-item">
+                    <a href="/index.html" class="navbar-item">
                         Inicio
                     </a>
 
-                    <a href="/Domat/nosotros.html" class="navbar-item">
+                    <a href="/nosotros.html" class="navbar-item">
                         Nosotros
                     </a>
 
-                    <a href="/Domat/servicios.html" class="navbar-item">
-                        Servicios
-                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/servicios.html" class="navbar-link is-arrowless has-background-black">
+                            Servicios
+                        </a>
 
-                    <a href="/desinfeccion/" class="navbar-item">
+                        <div class="navbar-dropdown has-background-black">
+                            <a href="/servicios.html#anchor-consultorias" class="navbar-item">
+                                Consultorias
+                            </a>
+                            <a href="/servicios.html#seguridad" class="navbar-item">
+                                Seguridad
+                            </a>
+                            <a href="/servicios.html#sostenibilidad" class="navbar-item">
+                                Sostenibilidad Ambiental
+                            </a>
+                            <a href="/servicios.html#ingenieria" class="navbar-item">
+                                Ingeniería
+                            </a>
+                            <a href="/servicios.html#anchor-gestion" class="navbar-item">
+                                Sistemas de gestión
+                            </a>
+                            <a href="/servicios.html#anchor-control" class="navbar-item">
+                                Control Contratistas
+                            </a>
+                            <a href="/servicios.html#anchor-capacitaciones" class="navbar-item">
+                                Capacitaciones
+                            </a>
+                            <a href="/servicios.html#anchor-eventos" class="navbar-item">
+                                Eventos
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <a href="/clientes.html" class="navbar-item">
                         Clientes
                     </a>
 
-                    <a href="/contacto/" class="navbar-item">
+                    <a href="/servicios.html" class="navbar-item">
                         Contacto
                     </a>
 
@@ -62,7 +92,7 @@
                 <div class="center">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="/contacto/" class="button is-primary has-text-weight-medium is-rounded">
+                            <a href="/contacto.html" class="button is-primary has-text-weight-medium is-rounded">
                                 ¡Hablemos!
                             </a>
 
@@ -73,6 +103,7 @@
             </div>
         </nav>
     </header>
+
     <section id="hero-conc" class="hero hero-serv is-medium">
         <article class="hero-body hero-serv-body is-flex is-align-content-center px-0">
 
@@ -123,7 +154,7 @@
                 <div class="gamas-body-grid-item  has-text-centered center-column">
                     <img src="img/ico/gama-1.svg" alt="">
                     <div class="block">
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Estrategía</h4>
+                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Estrategia</h4>
                     </div>
                     <p class="block">Desde una sólida posición, hemos definido nuevos y ambiciosos objetivos, además de
                         estrategias y propósitos que nos ayudan a lograrlos, creciendo cada día más.</p>
@@ -152,7 +183,7 @@
                 <div class="gamas-body-grid-item  has-text-centered center-column">
                     <img src="img/ico/gama-4.svg" alt="">
                     <div class="block">
-                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Responsailidad social
+                        <h4 class="is-size-5-mobile is-size-4-desktop has-text-weight-bold">Responsabilidad social
                         </h4>
                     </div>
                     <p>Desarrollamos nuestra actividad empresarial de forma comprometida con las personas y sostenible
@@ -180,8 +211,8 @@
                 <h2 class="is-size-4-mobile is-size-4-desktop f-8 block has-text-white">TODAS NUESTRAS ESPECIALIDADES AL
                     SERVICIOS DE SUS NECESIDADES
                 </h2>
-                <a href="servicios/"
-                    class="button single-spaced is-secondary has-text-weight-bold has-text-white block is-rounded">Contactenos</a>
+                <a href="/contacto.html"
+                    class="button single-spaced is-secondary has-text-weight-bold has-text-white block is-rounded">Contáctenos</a>
             </div>
 
         </article>
@@ -321,7 +352,7 @@
             <div class="cta-body-info">
                 <h2 class="is-size-4-mobile is-size-3-desktop has-text-white f-8 block">Líderes en consultoría y <br>
                     asesoramiento integral</h2>
-                <a href="/contacto/"
+                <a href="/contacto.html"
                     class="button single-spaced is-primary has-text-weight-bold has-text-white block">Contáctenos</a>
             </div>
             <img loading="lazy" src="img/cta-q.jpg" alt="" srcset="">
@@ -333,7 +364,7 @@
 
 
     <footer class="footer has-background-black center-column has-text-white pb-5">
-        <a class="back-to-top" href="#hero">
+        <a class="back-to-top" href="#header">
             <p>TOP</p>
         </a>
 
@@ -345,50 +376,52 @@
             <div class="menu is-flex-direction-column">
                 <p class="footer-title">Navegación</p>
 
-                <a href="/" class="navbar-item">
+                <a href="/index.html" class="navbar-item">
                     Inicio
                 </a>
 
-                <a href="/nosotros/" class="navbar-item">
+                <a href="/nosotros.html" class="navbar-item">
                     Nosotros
                 </a>
 
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html" class="navbar-item">
                     Servicios
                 </a>
 
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html" class="navbar-item">
                     Clientes
                 </a>
 
-                <a href="/contacto/" class="navbar-item">
+                <a href="/contacto.html" class="navbar-item">
                     Contacto
                 </a>
 
             </div>
             <div class="menu menu-serv is-flex-direction-column">
                 <p class="footer-title">Servicios</p>
-                <a href="/servicios/" class="navbar-item">
-                    Consultoría
+                <a href="/servicios.html#anchor-consultorias" class="navbar-item">
+                    Consultorias
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
+                <a href="/servicios.html#seguridad" class="navbar-item">
                     Seguridad
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Salud
+                <a href="/servicios.html#sostenibilidad" class="navbar-item">
+                    Sostenibilidad Ambiental
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Higiene
+                <a href="/servicios.html#ingenieria" class="navbar-item">
+                    Ingeniería
                 </a>
-
-                <a href="/servicios/" class="navbar-item">
-                    Ambiente
+                <a href="/servicios.html#anchor-gestion" class="navbar-item">
+                    Sistemas de gestión
                 </a>
-                <a href="/servicios/" class="navbar-item">
-                    Tecnología
+                <a href="/servicios.html#anchor-control" class="navbar-item">
+                    Control Contratistas
+                </a>
+                <a href="/servicios.html#anchor-capacitaciones" class="navbar-item">
+                    Capacitaciones
+                </a>
+                <a href="/servicios.html#anchor-eventos" class="navbar-item">
+                    Eventos
                 </a>
 
             </div>
@@ -397,11 +430,12 @@
                     <p class="footer-title">Contacto</p>
                     <a class="navbar-item" href="mailto:comercial@domat.com.ar"> comercial@domat.com.ar</a>
                     <a class="navbar-item"
-                        href="https://wa.me/5491161272772?text=Hola%20estoy%20interesado%20en%20sus%20servicios">+54 9
+                        href="https://wa.me/5491161272772?text=Hola%20estoy%20interesado%20en%20sus%20servicios">+54
+                        9
                         (11)
                         6127 2772</a>
                     <a class="navbar-item" href="">Lavalle 1125 CABA</a>
-                    <a id="boton-contacto" href="/contacto/"
+                    <a id="boton-contacto" href="/contacto.html"
                         class="button single-spaced is-primary has-text-white mt-2">Contáctenos</a>
                 </address>
             </div>
