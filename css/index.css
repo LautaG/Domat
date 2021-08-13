@@ -7397,6 +7397,8 @@ article,
 #invitacion {
   max-width: 1200px;
   margin: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -7411,12 +7413,21 @@ header {
   background-color: transparent;
 }
 
+.navbar-link {
+  color: #fff;
+}
+
 .navbar-item {
   color: #000;
 }
 
 .navbar-item img {
   max-height: 50px !important;
+}
+
+.navbar-item:hover {
+  color: #3b9ed8;
+  background-color: transparent !important;
 }
 
 .navbar-brand .navbar-item {
@@ -7433,6 +7444,10 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover {
+  color: #3b9ed8;
 }
 
 .hero {
